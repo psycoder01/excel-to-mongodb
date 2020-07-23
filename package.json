@@ -1,0 +1,24 @@
+{
+  "name": "Vara_Backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mohitkr01/Vara_Backend.git",
+  "author": "someone",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "convert-excel-to-json": "^1.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.25",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
